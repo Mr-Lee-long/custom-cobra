@@ -6,9 +6,9 @@ Cobra is used in many Go projects such as [Kubernetes](http://kubernetes.io/),
 [Hugo](https://gohugo.io), and [Github CLI](https://github.com/cli/cli) to
 name a few. [This list](./projects_using_cobra.md) contains a more extensive list of projects using Cobra.
 
-[![](https://img.shields.io/github/workflow/status/spf13/cobra/Test?longCache=tru&label=Test&logo=github%20actions&logoColor=fff)](https://github.com/spf13/cobra/actions?query=workflow%3ATest)
-[![Go Reference](https://pkg.go.dev/badge/github.com/spf13/cobra.svg)](https://pkg.go.dev/github.com/spf13/cobra)
-[![Go Report Card](https://goreportcard.com/badge/github.com/spf13/cobra)](https://goreportcard.com/report/github.com/spf13/cobra)
+[![](https://img.shields.io/github/workflow/status/spf13/cobra/Test?longCache=tru&label=Test&logo=github%20actions&logoColor=fff)](https://github.com/Mr-Lee-long/custom-cobra/actions?query=workflow%3ATest)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Mr-Lee-long/custom-cobra.svg)](https://pkg.go.dev/github.com/Mr-Lee-long/custom-cobra)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Mr-Lee-long/custom-cobra)](https://goreportcard.com/report/github.com/Mr-Lee-long/custom-cobra)
 [![Slack](https://img.shields.io/badge/Slack-cobra-brightgreen)](https://gophers.slack.com/archives/CD3LP1199)
 
 # Overview
@@ -62,7 +62,7 @@ have children commands and optionally run an action.
 
 In the example above, 'server' is the command.
 
-[More about cobra.Command](https://pkg.go.dev/github.com/spf13/cobra#Command)
+[More about cobra.Command](https://pkg.go.dev/github.com/Mr-Lee-long/custom-cobra#Command)
 
 ## Flags
 
@@ -82,13 +82,13 @@ Using Cobra is easy. First, use `go get` to install the latest version
 of the library.     
 
 ```
-go get -u github.com/spf13/cobra@latest
+go get -u github.com/Mr-Lee-long/custom-cobra@latest
 ```
 
 Next, include Cobra in your application:
 
 ```go
-import "github.com/spf13/cobra"
+import "github.com/Mr-Lee-long/custom-cobra"
 ```
 
 # Usage
@@ -99,13 +99,13 @@ develop a Cobra-based application. It is the easiest way to incorporate Cobra in
 It can be installed by running:
 
 ```
-go install github.com/spf13/cobra-cli@latest
+go install github.com/Mr-Lee-long/custom-cobra-cli@latest
 ```
 
-For complete details on using the Cobra-CLI generator, please read [The Cobra Generator README](https://github.com/spf13/cobra-cli/blob/master/README.md)
+For complete details on using the Cobra-CLI generator, please read [The Cobra Generator README](https://github.com/Mr-Lee-long/custom-cobra-cli/blob/master/README.md)
 
 For complete details on using the Cobra library, please read the [The Cobra User Guide](user_guide.md).
 
 # License
 
-Cobra is released under the Apache 2.0 license. See [LICENSE.txt](https://github.com/spf13/cobra/blob/master/LICENSE.txt)
+Cobra is released under the Apache 2.0 license. See [LICENSE.txt](https://github.com/Mr-Lee-long/custom-cobra/blob/master/LICENSE.txt)
