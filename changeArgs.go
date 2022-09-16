@@ -12,8 +12,7 @@ func renameFile(fileIndex []int)(map[int]string){
 
 	newFileList := make(map[int]string)
 	for _,k := range(fileIndex) {
-		fmt.Println("args", args[k])
-
+		
 		newFileName := "ekube-" + args[k]
 		cmd := fmt.Sprintf("envsubst < %s > %s",args[k], newFileName)
 		c := exec.Command("bash", "-c", cmd)
